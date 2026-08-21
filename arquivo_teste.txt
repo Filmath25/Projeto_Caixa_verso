@@ -55,5 +55,12 @@ VALUES
 ('S045', 'TH022', '2021-09-15', 'SUB-003', 'Enterprise Subscription', 'Subscription', 24.99, 12, 15.0, 254.9, 'Bank Transfer', 'Enterprise', 'Direct Sales', 'West', 'REP003'),
 ('S046', 'TH023', '2022-05-01', 'PRO-001', 'HealthTrack Pro', 'Device', 299.99, 1, 10.0, 269.99, 'Credit Card', 'Premium', 'Online', 'Asia', 'REP008'),
 ('S047', 'TH023', '2022-05-01', 'SUB-001', 'Premium Subscription', 'Subscription', 14.99, 12, 10.0, 161.89, 'Credit Card', 'Premium', 'Online', 'Asia', 'REP008'),
+<<<<<<< HEAD
 ('S048', 'TH024', '2021-11-15', 'ELT-001', 'HealthTrack Elite', 'Device', 499.99, 1, 5.0, 474.99, 'Bank Transfer', 'Enterprise', 'Direct Sales', 'South', 'REP004');
+=======
+('S048', 'TH024', '2021-11-15', 'ELT-001', 'HealthTrack Elite', 'Device', 499.99, 1, 5.0, 474.99, 'Bank Transfer', 'Enterprise', 'Direct Sales', 'South', 'REP004'),
+('S049', 'TH024', '2021-11-15', 'SUB-003', 'Enterprise Subscription', 'Subscription', 24.99, 12, 15.0, 254.9, 'Bank Transfer', 'Enterprise', 'Direct Sales', 'South', 'REP004'),
+('S050', 'TH025', '2022-06-15', 'LIT-001', 'HealthTrack Lite', 'Device', 199.99, 1, 25.0, 149.99, 'Credit Card', 'Basic', 'Retail', 'Asia', 'REP008');
+
+>>>>>>> 9198418f7fe769d91aac29b14675db8196b1f8bb
 GO
