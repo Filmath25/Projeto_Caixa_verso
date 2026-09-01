@@ -29,12 +29,11 @@ Os dados compreendem agendamentos e consultas ocorridos no ano de 2016. Cada lin
 
 ## 🎯 Perguntas de Negócio (Definidas Antes da Análise)
 Para direcionar a investigação com foco em tomadas de decisão para a gestão da saúde pública, dividimos o projeto em 3 grandes frentes, mapeadas individualmente para cada integrante do grupo:
-
-1.  **[Integrante 1 - Nome Aqui]: O tempo de espera entre o agendamento e o dia da consulta é um fator determinante para o absenteísmo?**
+1.  **[Integrante 1 - Filipe ]: O tempo de espera entre o agendamento e o dia da consulta é um fator determinante para o absenteísmo?**
     *   *Foco técnico:* Criação da coluna derivada `WaitTime` e análise de correlação estatística e temporal com o status de falta.
-2.  **[Integrante 2 - Nome Aqui]: O envio de lembretes via SMS é eficaz para engajar o paciente, e essa eficácia varia de acordo com faixas etárias?**
+2.  **[Integrante 2 - Francisco]: O envio de lembretes via SMS é eficaz para engajar o paciente, e essa eficácia varia de acordo com faixas etárias?**
     *   *Foco técnico:* Agrupamento de idades com `pd.cut` em blocos geracionais e cruzamento de matrizes usando `pivot_table`.
-3.  **[Integrante 3 - Nome Aqui]: Pacientes em vulnerabilidade socioeconômica ou portadores de doenças crônicas possuem taxas de falta mais severas?**
+3.  **[Integrante 3 - Giselle]: Pacientes em vulnerabilidade socioeconômica ou portadores de doenças crônicas possuem taxas de falta mais severas?**
     *   *Foco técnico:* Agregações estatísticas complexas com `groupby` unindo dados clínicos (`Diabetes`, `Hypertension`) e sociais (`Scholarship`).
 
 ---
